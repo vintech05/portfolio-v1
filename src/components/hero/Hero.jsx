@@ -12,8 +12,6 @@ const Hero = () => {
     <div className=''>
       <main>
         <div className='grid place-items-center scroll-smooth overflow-x-hidden lg:pt-28'>
-                {/* <div className='absolute top-0 right-0 p-4'>
-                </div> */}
                 <div id='name' className='flex flex-col justify-center text-center pt-8 lg:flex-row-reverse lg:items-center lg:mx-36 lg:text-left gap-10 lg:gap-28'>
                     <div className='flex justify-center'>
                     <img className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] object-cover rounded-full grayscale' src={myFace} alt="my-face" />
@@ -42,11 +40,17 @@ const Hero = () => {
                 <div className='border-y-2 border-button-clr mt-16 w-full py-3 relative'>
                     <div className='flex justify-center items-center gap-20 text-3xl'>
                         <IconContext.Provider value={{ className: "text-text-clr cursor-pointer hover:text-slate-800 transition-all" }}>
+                          <a href="https://www.linkedin.com/in/kelvinlsdynto/" target="blank">
                         <SlSocialLinkedin/>
+                          </a>
                         <span className='border-x-2 absolute p-3 flex border-button-clr'>
+                          <a href="https://github.com/vintech05" target="blank">
                         <VscGithubAlt/>
+                          </a>
                         </span>
+                        <a href="https://dribbble.com/Kovelin" target="blank">
                         <SiDribbble/>
+                        </a>
                         </IconContext.Provider>
                     </div>
                 </div>
