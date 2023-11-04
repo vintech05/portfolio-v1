@@ -29,7 +29,7 @@ const Contact = () => {
 
     return (
         <div className='grid place-items-center h-screen'>
-            <div className='pb-10'>
+            <div className='pb-4'>
                 <h1 className='font-serif text-4xl text-button-clr uppercase'>interested?</h1>
                 <h4 className='font-Manrope text-center text-button-clr uppercase'>hit me up!</h4>
             </div>
@@ -42,6 +42,7 @@ const Contact = () => {
                 name="user_name"
                 value={name}
                 onChange={(event) => setName(event.target.value)}
+                placeholder='John Doe'
                 required
                 />
                 <label className='pb-2'>Email</label>
@@ -51,6 +52,7 @@ const Contact = () => {
                 name="user_email"
                 value={email}
                 onChange={(event) => setEmail(event.target.value)}
+                placeholder='johndoe123@gmail.com'
                 required
                 />
                 <label className='pb-2'>Message</label>
@@ -59,6 +61,7 @@ const Contact = () => {
                 name="message"
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
+                placeholder='This is great!'
                 required
                 />
                 <input
