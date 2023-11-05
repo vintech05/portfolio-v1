@@ -1,6 +1,7 @@
 import '/src/index.css'
 import { useRef } from 'react';
 import { useState } from 'react';
+import { LiaHandshake } from 'react-icons/lia'
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -29,15 +30,15 @@ const Contact = () => {
 
     return (
         <div className='grid place-items-center h-screen'>
-            <div className='pb-4'>
-                <h1 className='font-serif text-4xl text-button-clr uppercase'>interested?</h1>
-                <h4 className='font-Manrope text-center text-button-clr uppercase'>hit me up!</h4>
+            <div className='pb-4 grid place-items-center'>
+                <h1 className='font-serif text-4xl text-button-clr uppercase'>lets connect!</h1>
+                <LiaHandshake className='font-Manrope text-3xl text-button-clr uppercase'/>
             </div>
             <div className='font-Manrope -mt-40'>
-            <form className='flex flex-col w-[20em] md:w-[30em] lg:w-[40em]' onSubmit={sendEmail}>
+            <form className='flex flex-col w-[20em] md:w-[30em] lg:w-[40em] text-button-clr' onSubmit={sendEmail}>
                 <label className='pb-2'>Name</label>
                 <input
-                className='mb-8 p-2 border-2 border-button-clr'
+                className='mb-8 p-2 border-2 border-button-clr caret-button-clr text-button-clr'
                 type="text"
                 name="user_name"
                 value={name}
@@ -47,7 +48,7 @@ const Contact = () => {
                 />
                 <label className='pb-2'>Email</label>
                 <input
-                className='mb-8 p-2 border-2 border-button-clr'
+                className='mb-8 p-2 border-2 border-button-clr caret-button-clr text-button-clr'
                 type="email"
                 name="user_email"
                 value={email}
@@ -57,7 +58,7 @@ const Contact = () => {
                 />
                 <label className='pb-2'>Message</label>
                 <textarea
-                className='border-2 border-button-clr pl-2 pt-2 pb-24 resize-none'
+                className='border-2 border-button-clr pl-2 pt-2 pb-24 resize-none caret-button-clr text-button-clr'
                 name="message"
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
