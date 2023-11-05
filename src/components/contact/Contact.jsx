@@ -30,7 +30,7 @@ const Contact = () => {
 
     return (
         <div className='grid place-items-center h-screen'>
-            <div className='pb-4 grid place-items-center'>
+            <div className='pb-24 lg:pb-8 grid place-items-center'>
                 <h1 className='font-serif text-4xl text-button-clr uppercase'>lets connect!</h1>
                 <LiaHandshake className='font-Manrope text-3xl text-button-clr uppercase'/>
             </div>
