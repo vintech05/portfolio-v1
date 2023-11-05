@@ -1,5 +1,4 @@
 import { IconContext } from "react-icons";
-import Typed from 'react-typed';
 import { useRef, useEffect } from "react";
 
 import { SlSocialLinkedin } from "react-icons/sl";
@@ -70,15 +69,7 @@ const Hero = () => {
                     <div>
                     <div ref={el => {title = el}}  className='text-text-clr font-serif flex flex-col justify-center gap-2 opacity-0'>
                     <h1 className='text-4xl lg:text-5xl'>Kelvin Lisdiyanto</h1>
-                    <Typed className="text-2xl lg:text-3xl"
-                     strings={[
-                      'Web Developer',
-                      'Student',
-                      'Cinephile']}
-                      typeSpeed={40}
-                      backSpeed={50}
-                      loop >
-                    </Typed>
+                    <h3 className="text-2xl lg:text-3xl">Web Developer</h3>
                     </div>
                     <div ref={el => {paragraph = el}} className='flex flex-col gap-6 pt-8 opacity-0'>
                         <p className='text-text-clr text-sm break-before-all lg:break-words font-Manrope mx-24 lg:mx-0 lg:w-80 leading-6'>Hello, Im Kelvin, As a passionate front-end developer,I thrive on crafting engaging and user-friendly web experiences.
