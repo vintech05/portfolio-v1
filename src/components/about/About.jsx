@@ -25,8 +25,8 @@ const About = () => {
             {show === 1 && (
                 <div id='skills-tab' className='grid grid-cols-3 gap-2'>
                     <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>VSCode</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm px-6 hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Git</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm px-6 hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Figma</span>
+                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Git</span>
+                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Figma</span>
                 </div>
             )}
             {show === 2 && (
