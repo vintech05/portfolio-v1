@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Service from './components/whatido/Service';
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div className='App bg-bg-clr h-full'>
     <Hero/>
     <About/>
+    <Service/>
     <Contact/>
     <Footer/>
     </div>
