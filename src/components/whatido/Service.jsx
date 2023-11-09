@@ -8,7 +8,7 @@ const Service = () => {
     <div>
         <div className='grid place-items-center'>
             <div className='grid place-items-center gap-2 pb-12'>
-                <h1 className='font-serif uppercase text-4xl text-button-clr'>services</h1>
+                <h1 className='font-serif uppercase text-4xl text-button-clr'>what i do</h1>
                 <IoConstructOutline className='text-3xl text-button-clr'/>
             </div>
             <div className='px-16 grid grid-col-1 lg:grid-cols-2 gap-8'>
