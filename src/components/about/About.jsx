@@ -24,25 +24,25 @@ const About = () => {
             <div className='p-4'>
             {show === 1 && (
                 <div id='skills-tab' className='grid grid-cols-3 gap-2'>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>VSCode</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Git</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Figma</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>VSCode</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Git</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Figma</span>
                 </div>
             )}
             {show === 2 && (
                 <div id='hobbies-tab' className='grid grid-cols-2 gap-2'>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Sleeping</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Movies</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Sleeping</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Movies</span>
                 </div>
             )}
             {show === 3 && (
                 <div id='stack-tab' className='grid grid-cols-3 lg:grid-cols-4 gap-2'>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>HTML</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>CSS</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>JS</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>SASS</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>TailwindCSS</span>
-                    <span className='bg-button-clr text-bg-clr p-1 text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>React</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>HTML</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>CSS</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>JS</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>SASS</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>TailwindCSS</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>React</span>
                 </div>
             )}
             </div>
