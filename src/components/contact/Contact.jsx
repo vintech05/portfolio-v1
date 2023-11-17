@@ -38,7 +38,7 @@ const Contact = () => {
             <form className='flex flex-col w-[20em] md:w-[30em] lg:w-[40em] text-button-clr' onSubmit={sendEmail}>
                 <label className='pb-2'>Name</label>
                 <input
-                className='mb-8 p-2 border-2 border-button-clr caret-button-clr text-button-clr'
+                className='mb-8 p-2 border-2 border-button-clr caret-button-clr bg-bg-clr text-button-clr'
                 type="text"
                 name="user_name"
                 value={name}
@@ -48,7 +48,7 @@ const Contact = () => {
                 />
                 <label className='pb-2'>Email</label>
                 <input
-                className='mb-8 p-2 border-2 border-button-clr caret-button-clr text-button-clr'
+                className='mb-8 p-2 border-2 border-button-clr caret-button-clr bg-bg-clr text-button-clr'
                 type="email"
                 name="user_email"
                 value={email}
@@ -58,7 +58,7 @@ const Contact = () => {
                 />
                 <label className='pb-2'>Message</label>
                 <textarea
-                className='border-2 border-button-clr pl-2 pt-2 pb-24 resize-none caret-button-clr text-button-clr'
+                className='border-2 border-button-clr pl-2 pt-2 pb-24 resize-none caret-button-clr bg-bg-clr text-button-clr'
                 name="message"
                 value={message}
                 onChange={(event) => setMessage(event.target.value)}
