@@ -1,11 +1,6 @@
 import './index.css';
-import Hero from './components/hero/Hero';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Service from './components/whatido/Service';
 
-
+import { Hero, About, Service, Contact, Footer } from './components';
 
 function App() {
 
