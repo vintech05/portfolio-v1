@@ -12,7 +12,7 @@ const Service = () => {
                 <h1 className='font-serif uppercase text-4xl text-button-clr'>what i do</h1>
                 <IoConstructOutline className='text-3xl text-button-clr'/>
             </div>
-            <div className='px-16 grid grid-col-1 lg:grid-cols-3 gap-8'>
+            <div className='px-16 grid grid-col-1 lg:grid-cols-3 gap-8  tracking-tight'>
                 <div className='group'>
                     <div id='card-1' className='flex flex-col items-center gap-2 border-2 transition-all border-button-clr group-hover:border-none group-hover:bg-button-clr -mx-10 lg:-mx-0 px-4 py-12 lg:px-6 lg:py-20'>
                         <RiGlobalLine className='text-4xl text-button-clr group-hover:text-bg-clr lg:text-5xl'/>
@@ -27,7 +27,7 @@ const Service = () => {
                     <div id='card-2' className='flex flex-col items-center gap-2 border-2 border-button-clr group-hover:border-none group-hover:bg-button-clr transition-all -mx-10 lg:-mx-0 px-4 py-12 lg:px-6 lg:py-20'>
                         <BiPaintRoll className='text-4xl text-button-clr group-hover:text-bg-clr lg:text-5xl'/>
                         <span className='text-button-clr group-hover:text-bg-clr text-2xl font-Manrope capitalize font-semibold pb-6'>UI/UX design</span>
-                        <p className='font-Manrope text-button-clr group-hover:text-bg-clr text-sm break-words text-center leading-6 lg:break-before-all lg:text-left lg:w-[25em]'>I focus on creating visually appealing and user-friendly websites that meet your specific needs. I use the latest design trends and technologies to ensure your website is modern and responsive. My services include UI/UX design and website layout planning. I prioritize user experience, ensuring that your website is not only beautiful but also easy to navigate.</p>
+                        <p className='font-Manrope text-button-clr group-hover:text-bg-clr text-sm break-words text-center leading-6 lg:break-before-all lg:text-left lg:w-[25em]'>I focus on creating visually appealing and user-friendly websites that meet your specific needs. I use the latest design trends and technologies to ensure your website is modern and responsive. My services include UI/UX design and website layout planning. I prioritize user experience, ensuring that your website is secure</p>
                             <span className='text-button-clr group-hover:text-bg-clr font-Manrope font-semibold text-sm mt-6 lg:pr-[19.6em] cursor-pointer underline hover:no-underline'>
                                 Learn More
                             </span>
