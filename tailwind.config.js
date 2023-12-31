@@ -12,8 +12,8 @@ export default {
         'text-clr': '#102241',        
       },
       fontFamily: {
-        'Notoserif': 'NotoSerif, Arial, sans-serif',
-        'Manrope': 'Manrope, Arial, sans-serif',
+        'Notoserif': 'Noto Serif, Arial, sans-serif',
+        'Manrope': 'Noto Sans Mono, Arial, sans-serif',
       },
     },
   },
