@@ -43,11 +43,12 @@ const About = () => {
                     <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>SASS</span>
                     <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>TailwindCSS</span>
                     <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>React</span>
+                    <span className='bg-button-clr text-bg-clr p-1 border-bg-clr text-sm hover:bg-bg-clr hover:text-button-clr border-2 hover:border-button-clr transition-all'>Vite</span>
                 </div>
             )}
             </div>
             </div>
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col gap-6 tracking-tighter'>
                 <a href="https://github.com/vintech05/loopstudios-landing-page">
                 <div className='group text-button-clr border-2 border-button-clr cursor-pointer flex flex-row items-center gap-8 w-[20em] md:w-[25em] hover:bg-button-clr group-hover:text-bg-clr transition-all lg:w-[30em] p-3'>
                     <IconContext.Provider value={{ className: "text-text-clr text-2xl group-hover:text-bg-clr transition-all" }}>
