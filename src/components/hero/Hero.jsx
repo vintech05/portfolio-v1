@@ -67,13 +67,13 @@ const Hero = () => {
                     <img ref={el => {myImg = el}} className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] object-cover opacity-0 rounded-full grayscale' src={myFace} alt="my-face" />
                     </div> 
                     <div>
-                    <div ref={el => {title = el}}  className='text-text-clr font-serif flex flex-col justify-center gap-2 opacity-0'>
+                    <div ref={el => {title = el}}  className='text-text-clr font-Notoserif flex flex-col justify-center gap-2 opacity-0'>
                     <h1 className='text-4xl lg:text-5xl'>Kelvin Lisdiyanto</h1>
                     <h3 className="text-2xl lg:text-3xl">Web Developer</h3>
                     </div>
                     <div ref={el => {paragraph = el}} className='flex flex-col gap-6 pt-8 opacity-0'>
-                        <p className='text-text-clr text-sm break-before-all lg:break-words font-Manrope mx-24 lg:mx-0 lg:w-80 leading-6'>Hello, I'm Kelvin, As a passionate front-end developer, I thrive on crafting engaging and user-friendly web experiences.
-                            My dedication to creating visually appealing and interactive interfaces drives my work. With a keen eye for design and a knack for implementing cutting-edge technologies,Im committed to enhancing the online world through compelling user interfaces.
+                        <p className='text-text-clr text-sm lg:break-words font-Manrope mx-24 lg:mx-0 lg:w-80 leading-6 tracking-tight'>Hello, I&apos;m Kelvin, As a passionate front-end developer, I thrive on crafting engaging and user-friendly web experiences.
+                            My dedication to creating visually appealing and interactive interfaces drives my work. Im committed to enhancing the online world through compelling user interfaces.
                         </p>
                     <button className='button'><a href="/src/public/CV Kelvin L.pdf" download>my resume</a></button>
                     </div>
