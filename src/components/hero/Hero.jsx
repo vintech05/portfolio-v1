@@ -75,7 +75,9 @@ const Hero = () => {
                         <p className='text-text-clr text-sm lg:break-words font-Manrope mx-24 lg:mx-0 lg:w-80 leading-6 tracking-tight'>Hello, I&apos;m Kelvin, As a passionate front-end developer, I thrive on crafting engaging and user-friendly web experiences.
                             My dedication to creating visually appealing and interactive interfaces drives my work. Im committed to enhancing the online world through compelling user interfaces.
                         </p>
-                    <button className='button'><a href="/src/public/CV Kelvin L.pdf" download>my resume</a></button>
+                        <div>
+                            <button className='button'><a href="/src/public/CV Kelvin L.pdf" download>my resume</a></button>
+                        </div>
                     </div>
                     </div>
                 </div>

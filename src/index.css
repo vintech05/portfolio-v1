@@ -9,6 +9,6 @@
     .button {
         @apply cursor-pointer transition-all text-button-clr px-2 py-2 border-2
         border-button-clr
-        shadow-[0px_0px_0px_0px_rgba(16,34,35)] hover:shadow-[4px_4px_0px_0px_rgba(16,34,35)] uppercase lg:mx-auto lg:ml-0 font-Manrope;
+        shadow-[0px_0px_0px_0px_rgba(16,34,35)] hover:shadow-[4px_4px_0px_0px_rgba(16,34,35)] uppercase lg:ml-0 font-Manrope;
     }
 }
