@@ -76,7 +76,7 @@ const Hero = () => {
                             My dedication to creating visually appealing and interactive interfaces drives my work. Im committed to enhancing the online world through compelling user interfaces.
                         </p>
                         <div>
-                            <button className='button'><a href="/src/public/CV Kelvin L.pdf" download>my resume</a></button>
+                            <button className='button'><a href="/src/public/CV Kelvin.pdf" download>my resume</a></button>
                         </div>
                     </div>
                     </div>
