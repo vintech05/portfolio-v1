@@ -12,12 +12,12 @@ const About = () => {
     }
 
     return (
-        <div className='flex justify-center items-center lg:flex-row md:flex-col flex-col gap-32 font-Manrope h-screen'>
-            <div className=' border-2 border-button-clr'>
+        <div className='flex justify-center items-center lg:flex-row md:flex-col flex-col gap-32 font-Manrope h-screen overflow-hidden'>
+            <div className='border-2 border-button-clr overflow-x-auto'>
             <div className=' border-b-2 border-button-clr px-0 md:px-4 lg:px-8'>
                 <ul className='flex flex-row gap-8 text-button-clr'>
                     <li className='mt-2 cursor-pointer pl-8 lg:pr-8' onClick={()=>showToggle(1)}>Skills</li>
-                    <li className='border-x-2 border-button-clr py-2 px-12 cursor-pointer' onClick={()=>showToggle(2)}>Hobbies</li>
+                    <li className='border-x-2 border-button-clr py-2 px-6 md:px-12 cursor-pointer' onClick={()=>showToggle(2)}>Hobbies</li>
                     <li className='pt-2 cursor-pointer pr-8 lg:pl-8' onClick={()=>showToggle(3)}>Stack</li>
                 </ul>
             </div>
