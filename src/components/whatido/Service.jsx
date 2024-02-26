@@ -12,13 +12,13 @@ const Service = () => {
                 <h1 className='font-serif uppercase text-4xl text-button-clr'>what i do</h1>
                 <IoConstructOutline className='text-3xl text-button-clr'/>
             </div>
-            <div className='px-16 grid grid-col-1 lg:grid-cols-3 gap-8  tracking-tight'>
-                <div className='group'>
+            <div className='px-16 grid grid-col-1 lg:grid-cols-2 gap-8 tracking-tight'>
+                <div className='group grid lg:col-span-2'>
                     <div id='card-1' className='flex flex-col items-center gap-2 border-2 transition-all border-button-clr group-hover:border-none group-hover:bg-button-clr -mx-10 lg:-mx-0 px-4 py-12 lg:px-6 lg:py-20'>
                         <RiGlobalLine className='text-4xl text-button-clr group-hover:text-bg-clr lg:text-5xl'/>
                         <span className='text-button-clr group-hover:text-bg-clr text-2xl font-Manrope capitalize font-semibold pb-6'>web development</span>
-                        <p className='font-Manrope text-button-clr group-hover:text-bg-clr text-sm break-words text-center leading-6 lg:break-before-all lg:text-left lg:w-[25em]'>I provide comprehensive solutions tailored to your needs. I specialize in creating dynamic, user-friendly websites using the latest technologies and frameworks. My services include front-end and website optimization. I adhere to best practices in coding, ensuring your website is not only visually appealing but also efficient and secure.</p>
-                            <span className='text-button-clr group-hover:text-bg-clr font-Manrope font-semibold text-sm mt-6 lg:pr-[19.6em] cursor-pointer underline hover:no-underline'>
+                        <p className='font-Manrope text-button-clr group-hover:text-bg-clr text-sm break-words text-center leading-6 lg:break-before-all lg:w-[35em]'>I provide comprehensive solutions tailored to your needs. I specialize in creating dynamic, user-friendly websites using the latest technologies and frameworks. My services include front-end and website optimization. I adhere to best practices in coding, ensuring your website is not only visually appealing but also efficient and secure.</p>
+                            <span className='text-button-clr group-hover:text-bg-clr font-Manrope font-semibold text-sm mt-6 cursor-pointer  underline hover:no-underline'>
                                 Learn More
                             </span>
                     </div>
