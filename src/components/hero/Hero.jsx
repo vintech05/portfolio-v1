@@ -64,7 +64,7 @@ const Hero = () => {
         <div className='grid place-items-center scroll-smooth overflow-x-hidden lg:pt-28'>
                 <div id='name' className='flex flex-col justify-center text-center pt-8 lg:flex-row-reverse lg:items-center lg:mx-36 lg:text-left gap-10 lg:gap-28'>
                     <div className='flex justify-center'>
-                    <img ref={el => {myImg = el}} className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] object-cover opacity-0 rounded-full grayscale' src={myFace} alt="my-face" />
+                    <img ref={el => {myImg = el}} className='w-[200px] h-[200px] lg:w-[240px] lg:h-[240px] xl:w-[300px] xl:h-[300px] object-cover opacity-0 rounded-full grayscale' src={myFace} alt="my-face" />
                     </div> 
                     <div>
                     <div ref={el => {title = el}}  className='text-text-clr font-Notoserif flex flex-col justify-center gap-2 opacity-0'>
@@ -72,8 +72,8 @@ const Hero = () => {
                     <h3 className="text-2xl lg:text-3xl">Web Developer</h3>
                     </div>
                     <div ref={el => {paragraph = el}} className='flex flex-col gap-6 pt-8 opacity-0'>
-                        <p className='text-text-clr text-sm lg:break-words font-Manrope mx-24 lg:mx-0 lg:w-80 leading-6 tracking-tight'>Hello, I&apos;m Kelvin, As a passionate front-end developer, I thrive on crafting engaging and user-friendly web experiences.
-                            My dedication to creating visually appealing and interactive interfaces drives my work. Im committed to enhancing the online world through compelling user interfaces.
+                        <p className='text-text-clr text-sm text-balance lg:text-left font-Manrope mx-6 md:mx-14 lg:mx-0 lg:w-80 leading-6 tracking-tight'>Hello, I&apos;m Kelvin, As a passionate front-end developer, I thrive on crafting engaging and user-friendly web experiences.
+                            My dedication to creating visually appealing and interactive interfaces drives my work.
                         </p>
                         <div>
                             <button className='button'><a href="/src/public/CV Kelvin.pdf" download>my resume</a></button>
